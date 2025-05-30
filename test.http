@@ -1,0 +1,12 @@
+### Iniciar proceso Zeebe vía API REST local
+POST http://localhost:8099/start
+Content-Type: application/json
+
+{
+  "customerId": "cust50",
+  "orderTotal": 67.50,
+  "cardNumber": "1234 4567",
+  "cvc": "123",
+  "expiryDate": "12/25"
+}
+
